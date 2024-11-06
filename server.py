@@ -32,5 +32,5 @@ class Server:
             c_connection.start()
 
 
-srv = Server('127.0.0.1', 5006)
+srv = Server('0.0.0.0', 5006)
 srv.listener()
